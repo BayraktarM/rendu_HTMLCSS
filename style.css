@@ -73,29 +73,123 @@ section div a img {
     align-items: center;
 }
 
-.main {
+.carte {
+    width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: double;
+    border-radius: 30px;
 
 }
 #principale{
-    display: flex;
+    display: flex
+;
+    flex-direction: column;
+    align-items: stretch;
 }
-.essenimg{
-    display: flex ;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        flex-direction: row;
-        align-items: center;;
+.enssenimg{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .main img {
     display: flex;
-   height: 450PX;
+   height: 250PX;
 }
 #section69 {
     display: block;
     text-align: center;
     background-color: #d3bb8a;
+}
+h3{
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    height: 85PX;
+    width: 258PX;
+}
+.imgcarte{
+    height: 300PX;
+    width: 258PX;
+}
+#groupe{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+}
+.foto{
+height:160PX;
+border-radius: 30PX;
+}
+div.enssenimg{
+    display: flex;
+    display: flex
+;
+    justify-content: space-around;
+}
+.com {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    width: 700PX;
+    margin: auto;
+    height: 486PX;
+}
+.nom{
+    display: flex
+;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mes
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form{
+    border-style: double;
+    display: flex;
+        flex-direction: column;
+}
+#avis{
+    width: 493PX;
+    height: 151PX;
+}
+footer{
+    display: flex
+;
+    background-color: #d3bb8a;
+    height: 79PX;
+    border-radius: 44PX;
+    justify-content: space-between;
+}
+#fotfin {
+    border-radius: 137PX;
+    width: 77PX;
+    display: flex;
+    flex-direction: row;
+}
+#secfin {
+    display: flex;
+        align-content: center;
+        flex-direction: row;
+        align-items: center;
+}
+#finfoot{
+    display: flex
+    ;
+        align-items: center; 
 }

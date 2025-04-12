@@ -10,7 +10,7 @@ header {
     flex-wrap: nowrap;
     align-items: flex-end;
     background-color: #d3bb8a;
-    box-shadow: 10px 10px 10px 10px #e3e1e1;
+    box-shadow: 10px 10px 10px 10px #d3bb8a;
     border-radius: 10px;
 
 }
@@ -35,8 +35,8 @@ section div a img {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: #ffffff;
-    box-shadow: 10px 10px 10px 10px #e6e5e5;
+    background-color: #d3bb8a;
+    box-shadow: 10px 10px 10px 10px #d3bb8a;
     border-radius: 10px;
     height: 500PX;
 }
@@ -56,7 +56,6 @@ section div a img {
 #sec {
     display: flex;
     background-color: #d3bb8a;
-    box-shadow: 10px 10px 10px 10px #e3e1e1;
     border-radius: 10px;
     flex-direction: column;
     align-items: center;
@@ -80,6 +79,8 @@ section div a img {
     align-items: center;
     border: double;
     border-radius: 30px;
+    box-shadow: 10px 10px 10px -3px #d3bb8a;
+
 
 }
 #principale{
@@ -102,6 +103,7 @@ section div a img {
     display: block;
     text-align: center;
     background-color: #d3bb8a;
+    border-radius: 20px;
 }
 h3{
     display: flex
@@ -163,6 +165,8 @@ div.enssenimg{
     border-style: double;
     display: flex;
         flex-direction: column;
+        border-radius: 35PX;
+        box-shadow: 10px 10px 10px 10px #d3bb8a
 }
 #avis{
     width: 493PX;
@@ -192,4 +196,83 @@ footer{
     display: flex
     ;
         align-items: center; 
+}
+.imgcarte{
+    border-radius: 30px;
+}
+.buttoncom{
+    width: 100PX;
+    border-radius: 20PX;
+    align-self: center;
+    background-color: #d3bb8a;
+}
+.boutonachat{
+    border-radius: 20px;
+    background-color: #d3bb8a;
+}
+.A{
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+#PA{
+    text-align: center;
+    width: 500PX;
+    height: 112PX;
+    margin: auto;
+}
+#h2B{
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+}
+#imgB{
+    width: 370PX;
+    border-radius: 80px;
+
+}
+#S2{
+    display: flex
+;
+    flex-direction: column;
+    background-color: #d3bb8a;
+    border-radius: 60px;
+    box-shadow: 10px 10px 10px 10px #d3bb8a;
+
+}
+#P2{
+    width: 487PX;
+}
+#D1{
+    display: flex
+    ;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;   
+}
+.enssenimg2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+#C{
+    display: flex;
+    flex-direction: column;
+}
+.D{
+    display: flex
+;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#E {
+    width: 275PX;
+}
+#F{
+    width: 265PX
 }
